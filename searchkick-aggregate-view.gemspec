@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/searchkick-aggregate-view.rb"]
   s.homepage    = ''
   s.license     = 'MIT'
+  s.add_runtime_dependency 'searchkick', '~>1.1.2'
 end
